@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8A45C7FD24413608007EB419 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A45C7FC24413608007EB419 /* AppDelegate.swift */; };
-		8A45C7FF24413608007EB419 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A45C7FE24413608007EB419 /* art.scnassets */; };
 		8A45C80124413608007EB419 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A45C80024413608007EB419 /* ViewController.swift */; };
 		8A45C80424413608007EB419 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A45C80224413608007EB419 /* Main.storyboard */; };
 		8A45C8062441360B007EB419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A45C8052441360B007EB419 /* Assets.xcassets */; };
@@ -19,7 +18,6 @@
 /* Begin PBXFileReference section */
 		8A45C7F924413607007EB419 /* SwiftUIARView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIARView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A45C7FC24413608007EB419 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A45C7FE24413608007EB419 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		8A45C80024413608007EB419 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8A45C80324413608007EB419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A45C8052441360B007EB419 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				8A45C7FC24413608007EB419 /* AppDelegate.swift */,
-				8A45C7FE24413608007EB419 /* art.scnassets */,
 				8A45C80024413608007EB419 /* ViewController.swift */,
 				8A45C80224413608007EB419 /* Main.storyboard */,
 				8A45C8052441360B007EB419 /* Assets.xcassets */,
@@ -128,7 +125,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A45C7FF24413608007EB419 /* art.scnassets in Resources */,
 				8A45C8092441360B007EB419 /* LaunchScreen.storyboard in Resources */,
 				8A45C8062441360B007EB419 /* Assets.xcassets in Resources */,
 				8A45C80424413608007EB419 /* Main.storyboard in Resources */,
@@ -289,13 +285,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JV9PMB7QFN;
+				DEVELOPMENT_TEAM = B4B222G88M;
 				INFOPLIST_FILE = SwiftUIARView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.doomdave.SwiftUIARView;
+				PRODUCT_BUNDLE_IDENTIFIER = org.tnir.sample.SwiftUIARView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,13 +303,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JV9PMB7QFN;
+				DEVELOPMENT_TEAM = B4B222G88M;
 				INFOPLIST_FILE = SwiftUIARView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.doomdave.SwiftUIARView;
+				PRODUCT_BUNDLE_IDENTIFIER = org.tnir.sample.SwiftUIARView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

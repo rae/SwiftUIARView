@@ -10,10 +10,15 @@ import SwiftUI
 
 struct SwiftUIARCardView: View {
     @State private var textToShow = "Hello AR"
+    let gradient = Gradient(colors: [Color.red, Color.blue])
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 20)
-                .fill(LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .topLeading, endPoint: .bottomTrailing))
+                .fill(LinearGradient(
+                        gradient: gradient,
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                ))
                 .edgesIgnoringSafeArea(.all)
             
             VStack {

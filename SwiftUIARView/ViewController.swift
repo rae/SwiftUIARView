@@ -92,11 +92,20 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             // make the hosting VC a child to the main view controller
             self.addChild(arVC)
             
-            // set the pixel size of the Card View
-            arVC.view.frame = CGRect(x: 0, y: 0, width: 500, height: 500)
-            
             // add the ar card view as a subview to the main view
             self.view.addSubview(arVC.view)
+            
+            arVC.didMove(toParent: self)
+
+            NSLayoutConstraint.activate([
+                arVC.view.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.5),
+                arVC.view.heightAnchor.constraint(equalTo: self.view.heightAnchor, multiplier: 0.5),
+                arVC.view.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
+                arVC.view.centerYAnchor.constraint(equalTo: self.view.centerYAnchor)
+            ])
+
+            // set the pixel size of the Card View
+//            arVC.view.frame = CGRect(x: 0, y: 0, width: 500, height: 500)
             
             // render the view on the plane geometry as a material
             self.show(hostingVC: arVC, on: node)
